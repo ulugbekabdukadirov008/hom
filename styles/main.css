@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,600;0,900;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #222;
+    font-family: 'Livvic', sans-serif;
+}
+
+.container {
+     width: 100%;
+     max-width: 1240px;
+     margin-left: auto;
+     margin-right: auto;
+     padding-left: 20px;
+     padding-right: 20px;
+}
+
+.hero-content {
+        padding-top: 280px;
+        margin-left: 150px;
+}
+
+.form-input {
+     margin-right: 50px;
+     padding: 25px 50px;
+     background-color: aqua;
+     border-radius: 10px;
+     border: none;
+     color: chocolate;
+     font-weight: 600;
+     margin-bottom: 80px;
+     box-shadow: 4px 4px 8px 0px #fff;
+}
+
+.form-input:hover {
+    box-shadow: 4px 4px 8px 0px gold;
+}
+
+.select {
+     margin-left: 70px;
+     margin-right: 150px;
+     padding: 17px 35px;
+     border-radius: 15px;
+     background-color: gold;
+     color: blue;
+     box-shadow: 4px 4px 8px 0px green;
+     border: none;
+}
+
+.select:hover {
+    box-shadow: 4px 4px 8px 0px rgb(10, 156, 214);
+}
+
+.submit {
+     padding: 20px 55px;
+     background-color: chartreuse;
+     border-radius: 55px;
+     color: darkmagenta;
+     font-weight: 700;
+     box-shadow: 4px 4px 8px 0px gold;
+     border: none;
+}
+
+.submit:hover {
+    box-shadow: 4px 4px 8px 0px rgb(155, 39, 49);
+}
+
+.result {
+     color:  #fff;
+     font-size: 85px;
+     margin-left: 520px;
+}
+
+@media only screen and (max-width:576px) {
+    .hero-content {
+        padding-top: 80px;
+        margin-left: 50px;
+}
+
+.form-input {
+     margin-right: auto;
+     padding: 20px 45px;
+     margin-bottom: 40px;
+}
+
+.form-input:active {
+    box-shadow: 4px 4px 8px 0px gold;
+}
+
+.select {
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.submit {
+     padding: 11px 45px;
+     margin-left: 50px;
+     margin-top: 30px;
+}
+
+.result {
+     color:  #fff;
+     font-size: 65px;
+     margin-left: 60px;
+}
+}
